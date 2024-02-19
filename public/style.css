@@ -1,0 +1,49 @@
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+@font-face {
+    font-family: 'Blackrush';
+    src: url('blackrush.otf') format('truetype');
+}
+h1{
+    font-size: 200px;
+    font-family: 'blackrush', sans-serif;
+    transition: 0.4s;
+    color: rgb(28, 6, 113);
+}
+h1:hover {
+    color: #2b795d;
+ 
+}
+.login{
+  text-decoration: none;
+  color: white;
+}
+.reg{
+    text-decoration: none;
+    color: white;
+}
+.button {
+    background-color: #2b795d; 
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    transition-duration: 0.5s;
+    
+}
+
+.button:hover {
+    background-color: rgb(30, 218, 109);
+
+}
